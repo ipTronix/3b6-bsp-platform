@@ -8,6 +8,7 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/ipTronix" name="iptronix"/>
   <remote fetch="https://github.com/meta-qt5" name="qt5" />
+
   
   <project remote="yocto" revision="jethro" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="jethro" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
@@ -24,5 +25,6 @@
   <project remote="freescale" revision="jethro" name="Documentation" path="sources/Documentation"/>
   <project remote="iptronix" revision="jethro" name="meta-3b6" path="sources/meta-3b6"/>
   <project remote="qt5" revision="master" name="meta-qt5" path="sources/meta-qt5"/>
+  <project remote="yocto" revision="master" name="meta-ti" path="sources/meta-ti"/>
 
 </manifest>
